@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.env
+dist/
+logs/
+package-lock.json
+/frontend/public/
+

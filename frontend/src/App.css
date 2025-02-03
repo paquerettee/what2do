@@ -1,0 +1,56 @@
+/* styling task container */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh; 
+  background-color: #f4f4f4; 
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+/* styling task list */
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+  max-width: 100%;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.task-item:hover {
+  transform: scale(1.02);
+  font-weight: 600;
+}
+
+.task-name {
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-done{
+  text-decoration: line-through;
+}
